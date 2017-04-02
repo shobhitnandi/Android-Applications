@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sn.sharedpreference.MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="User Name"
+       android:id="@+id/et1"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Password"
+       android:layout_below="@id/et1"
+       android:id="@+id/et2"/>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Save"
+       android:id="@+id/but1"
+       android:onClick="dothis"
+       android:layout_below="@id/et2"/>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Show"
+       android:layout_alignParentRight="true"
+       android:id="@+id/but2"
+       android:onClick="dothis"
+       android:layout_below="@id/et2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:id="@+id/but3"
+        android:onClick="dothis"
+        android:layout_below="@+id/et2"
+        android:layout_toStartOf="@+id/but2"
+        android:layout_marginEnd="16dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/but4"
+        android:onClick="dothis"
+        android:layout_alignBaseline="@+id/but3"
+        android:layout_alignBottom="@+id/but3"
+        android:layout_toEndOf="@+id/but1"
+        android:layout_marginStart="27dp" />
+</RelativeLayout>

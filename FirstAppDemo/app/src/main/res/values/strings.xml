@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirstAppDemo</string>
+<string name="android_demo">CUSTOM DIALOG</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <array name="my_array">
+        <item>RED</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+    </array>
+
+</resources>

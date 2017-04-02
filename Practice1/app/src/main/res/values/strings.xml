@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practice1</string>
+
+    <array name="my">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>White</item>
+        <item>Grey</item>
+    </array>
+</resources>
